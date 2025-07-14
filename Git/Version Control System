@@ -1,0 +1,42 @@
+Git/Version Control System
+
+Melacak perubahan: Setiap kali Anda mengubah kode, Git mencatat apa yang berubah, kapan, dan siapa yang mengubahnya. Seperti memiliki "riwayat lengkap" dari semua perubahan yang pernah dibuat.
+Kembali ke versi sebelumnya: Jika kode terbaru bermasalah, Anda bisa dengan mudah "mundur" ke versi sebelumnya yang masih berfungsi dengan baik.
+Kerja tim: Ketika beberapa programmer bekerja pada proyek yang sama, Git membantu menggabungkan pekerjaan mereka tanpa saling menimpa atau merusak kode orang lain.
+Backup otomatis: Kode Anda tersimpan di berbagai tempat (local, server, cloud) sehingga tidak akan hilang meski komputer rusak.
+Singkatnya, Git adalah "mesin waktu" untuk kode program yang memungkinkan programmer bekerja dengan aman dan terorganisir, baik sendiri maupun dalam tim.
+
+Repository  : Folder project
+Commit		  : Update file
+Hash			  : Penanda unik setiap Commit
+Checkout		: Berpindah ke sebuah Commit
+Branch			: Cabang dari setiap Commit
+Merge			  : Menggabungkan Branch
+Remote		  : Sumber yang memiliki Repo
+Clone			  : Mengambil Repo dari Remote
+Push			  : Mengirim Commit ke Repo
+Pull			  : Mengambil Commit dari Repo
+Repository (Repo): Bayangkan ini seperti sebuah "kotak penyimpanan" yang berisi semua file proyek Anda plus seluruh riwayat perubahannya.
+Working Directory: Ini adalah folder di komputer Anda tempat Anda bekerja dengan file-file secara normal.
+
+
+
+Alur Kerja Git
+1. Staging Area (Area Persiapan)
+Sebelum menyimpan perubahan, Anda harus "memilih" file mana yang ingin disimpan. Ini seperti memilih barang yang akan dimasukkan ke dalam paket sebelum dikirim.
+File yang diubah → Staging Area → Repository
+2. Commit (Menyimpan Snapshot)
+Ketika Anda melakukan "commit", Git mengambil "foto" dari semua file yang ada di staging area dan menyimpannya sebagai versi baru. Setiap commit memiliki:
+ID unik (seperti nomor seri)
+Pesan yang menjelaskan perubahan apa yang dibuat
+Timestamp
+Informasi pembuat
+3. Branch (Cabang)
+Bayangkan Anda ingin mencoba fitur baru tanpa merusak kode utama. Branch seperti membuat "salinan paralel" dari proyek Anda. Anda bisa:
+Membuat branch baru untuk eksperimen
+Bekerja di branch tersebut
+Jika berhasil, gabungkan kembali ke branch utama
+Jika gagal, hapus branch tersebut
+4. Merge (Penggabungan)
+Ketika Anda sudah selesai mengembangkan fitur di branch terpisah, Anda bisa "menggabungkan" perubahan tersebut kembali ke branch utama.
+
