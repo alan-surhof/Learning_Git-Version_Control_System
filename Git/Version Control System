@@ -16,6 +16,7 @@ Remote		  : Sumber yang memiliki Repo
 Clone			  : Mengambil Repo dari Remote
 Push			  : Mengirim Commit ke Repo
 Pull			  : Mengambil Commit dari Repo
+
 Repository (Repo): Bayangkan ini seperti sebuah "kotak penyimpanan" yang berisi semua file proyek Anda plus seluruh riwayat perubahannya.
 Working Directory: Ini adalah folder di komputer Anda tempat Anda bekerja dengan file-file secara normal.
 
